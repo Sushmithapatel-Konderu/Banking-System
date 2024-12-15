@@ -35,7 +35,7 @@ class Banking_System extends AssertionError
        System.out.println("'1' to debit");
        System.out.println("'2' for credit");
        System.out.println("'3' to checkBalance");
-       System.out.println("'4' To ExIT/Close the Account");
+       System.out.println("'4' To EXIT/Close the Account");
        Scanner sc=new Scanner(System.in);
       // System.out.println("Enter the number" );
        //x=sc.nextInt();
