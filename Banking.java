@@ -42,6 +42,7 @@ class Banking_System extends AssertionError
     public static void main(String[] args) {
         int x=0;
         Scanner sc=new Scanner(System.in);
+        System.out.println("If YOU Are in here you have a MIN Balance of: 100000");
         do
         {
             System.out.println("'1' to debit");
