@@ -2,7 +2,7 @@ import java.lang.*;
 import java.util.*;
 class Banking_System extends AssertionError
 {
-   public static long num=10000000;
+   public static long num=100000;
     public static void debit()
     {   long n;
         System.out.println("Enter  Amount of money you are debiting");
@@ -17,8 +17,8 @@ class Banking_System extends AssertionError
         System.out.println("Enter the Amount You are Withdrawing");
         Scanner sc=new Scanner(System.in);
         long y=sc.nextLong();
-        if(y>num)
-       { System.out.println("You cant Withdraw the Amount More than Available balance");
+          if(y>num||num<=100000)
+       { System.out.println("You can't Withdraw the Amount More than Available balance or minimum Balance");
           throw new AssertionError("Exceeded the Available Balance BY"+(y-num));
     }
 
